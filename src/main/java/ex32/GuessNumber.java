@@ -52,7 +52,7 @@ public class GuessNumber {
         switch (difficultyLevel) {
             case 1 -> randomNumber = (int) Math.floor(Math.random()*(10-1+1)+1);
             case 2 -> randomNumber = (int) Math.floor(Math.random()*(100-1+1)+1);
-            case 3 -> randomNumber = (int) Math.floor(Math.random()*(1000-1+1)*1);
+            case 3 -> randomNumber = (int) Math.floor(Math.random()*(1000-1+1)+1);
             default -> throw new IllegalStateException("Unexpected value: " + difficultyLevel);
         }
         return randomNumber;

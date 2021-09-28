@@ -29,7 +29,7 @@ public class Validator {
         if (!checkIf2Char(lastName)) returnStatement += "The last name must be at least 2 characters long.\n";
         if (!checkIDFormat(emplID)) returnStatement += "The employee ID must be in the format of AA-1234.\n";
         if (!checkIfNumber(zipCode)) returnStatement += "The zip code must be a 5 digit number.\n";
-        else returnStatement += "There were no errors found.";
+        if (returnStatement.isEmpty()) returnStatement += "There were no errors found.";
         return returnStatement;
     }
     public static void main(String[] args) {

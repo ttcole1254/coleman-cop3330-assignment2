@@ -2,6 +2,11 @@ package ex24;
 
 import org.junit.jupiter.api.Test;
 
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Tyler Coleman
+ */
+
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
